@@ -18,12 +18,13 @@ The notebook (`Nonclassicality-chip.ipynb`) certifies nonclassicality in a photo
 .
 ├── Nonclassicality-chip.ipynb   # Main analysis notebook
 ├── data/
-│   ├── exp_data.txt             # Raw experimental coincidence-count data
-│   └── table_sample_*.txt       # Resampled frequency tables used in the rank analysis
+│   └── Figure X/
+│        ├── table_X_n.txt   # n-th data-table for the specific poissonian sampling, n from 0 to 9
+│        └── trainranks_X.npy  # Contains already the rank analysis for the 10 data tables in the folder
 └── README.md
 ```
 
-> Note: paths to data files are set relative to a `data/` subfolder (e.g. `data/exp_data.txt`). If your local file layout differs, update the `path` variables in the relevant notebook cells accordingly.
+> Note: If your local file layout differs, update the `path` variables in the relevant notebook cells accordingly.
 
 ## Requirements
 

@@ -52,7 +52,7 @@ pip install numpy scipy sympy matplotlib cvxpy cvxopt pycddlib mosek
 ## Usage
 
 1. Clone the repository and install the dependencies above.
-2. Ensure the `data/` folder (containing `exp_data.txt` and the `table_sample_*.txt` files) is present alongside the notebook, or update the file paths in the notebook to match your setup.
+2. Ensure the `data/` folder (containing `in1_R1R4_actime15_20191024-2043.txt` and the `table_sample_*.txt` files) is present alongside the notebook, or update the file paths in the notebook to match your setup.
 3. Open and run `Nonclassicality-chip.ipynb` in Jupyter, running cells sequentially from top to bottom.
 
 **Runtime warning:** the rank-analysis step (Section "Sampling noisy data and rank analysis") runs a seesaw optimisation across multiple ranks and resampled tables, and can take several minutes to complete depending on your machine. Adjust `convergence_tolerance` if needed. 

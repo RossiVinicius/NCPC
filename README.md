@@ -52,7 +52,7 @@ pip install numpy scipy sympy matplotlib cvxpy cvxopt pycddlib mosek
 ## Usage
 
 1. Clone the repository and install the dependencies above.
-2. Ensure the `data/` folder (containing `in1_R1R4_actime15_20191024-2043.txt` and the `table_sample_*.txt` files) is present alongside the notebook, or update the file paths in the notebook to match your setup.
+2. Ensure the `data/` folder (containing `exp.txt` and the `table_sample_*.txt` files) is present alongside the notebook, or update the file paths in the notebook to match your setup.
 3. Open and run `Nonclassicality-chip.ipynb` in Jupyter, running cells sequentially from top to bottom.
 
 **Runtime warning:** the rank-analysis step (Section "Sampling noisy data and rank analysis") runs a seesaw optimisation across multiple ranks and resampled tables, and can take several minutes to complete depending on your machine. Adjust `convergence_tolerance` if needed. 
@@ -65,7 +65,7 @@ We thank Albert Aloy for his support with the theory-agnostic tomography functio
 
 **Code:** The code in this notebook is licensed under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of it, provided that the original copyright notice and this permission notice are included in all copies or substantial portions of the code. See the `LICENSE` file for the full license text.
 
-**Data:** The experimental dataset (`data/in1_R1R4_actime15_20191024-2043.txt`) is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to share and adapt the data for any purpose, provided that appropriate credit is given to the original contributors and the associated publication [arxiv handler] is cited. See [creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0/) for details.
+**Data:** The experimental dataset (`data/exp.txt`) is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to share and adapt the data for any purpose, provided that appropriate credit is given to the original contributors and the associated publication [arxiv handler] is cited. See [creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0/) for details.
 
 ## Citation
 

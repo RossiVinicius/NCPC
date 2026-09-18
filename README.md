@@ -24,8 +24,6 @@ The notebook (`Nonclassicality-chip.ipynb`) certifies nonclassicality in a photo
 └── README.md
 ```
 
-> Note: If your local file layout differs, update the `path` variables in the relevant notebook cells accordingly.
-
 ## Requirements
 
 The notebook was developed and tested with **Python 3.11**. Main dependencies:
